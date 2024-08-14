@@ -61,6 +61,12 @@ border-top: none;
 .ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+    .aba-conteudo.ativo{
+        display:block;   
+    }
+    .aba-conteudo{
+        display: none;
+    }
     }
     .abas-textos{
         background-color: var(--texto-fundo);
@@ -70,3 +76,22 @@ border-top: none;
         padding: 40px;
         border-radius: 0 0 40px 40px;s
     }
+    .aba-conteudo-titulo-principal{
+        font-size: 28px;
+        text-align: center;
+    }
+    .aba-conteudo-titulo-secundario{
+        text-align: center;
+        color: var(--verde);
+        text-transform: uppercase;
+    }
+    .aba-conteudo{
+        width: 100px;
+        height: 100px;
+        background: #b5b;
+        margin: 10px;
+      }
+      
+      .ativo{
+        display: block;
+      }
